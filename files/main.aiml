@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+  
+	<category>
+        <pattern>START</pattern>
+        <template>
+            Are you a Computer Science student and are you actively working towards obtaining a Computer Science degree?
+            
+            <button>
+                <text>Yes</text>
+                <postback>YES CS</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>NO CS</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>NO ^</pattern>
+        <template><srai>NO THANKS</srai></template>
+    </category>
+    
+    <category>
+        <pattern>NO THANKS</pattern>
+        <template>
+            That's OK. If you decide you need career advice in the field of Computer Science, i'll be here!
+        </template>
+    </category>
+
+    <category>
+        <pattern>YES CS</pattern>
+        <template>
+            Sensational!
+            
+            Do you like to code?
+            
+            <button>
+                <text>Sure do</text>
+                <postback></postback>
+            </button>
+            <button>
+                <text>Not so much</text>
+                <postback></postback>
+            </button>
+        </template>
+    </category>
+
+    <category>
+        <pattern>NO CS</pattern>
+        <template>
+            That's okay! There are many great careers outside of Computer Science! I'll be here if you need me!
+        </template>
+    </category>
+
+    <category>
+        <pattern>SURE DO</pattern>
+        <template>
+            That's my favorite too!
+            
+            Aside from coding, would you consider yourself to be creative or artistic?
+            <button>
+                <text>Definitely</text>
+                <postback>DEFINITELY</postback>
+            </button>
+            <button>
+                <text>No way</text>
+                <postback>NO WAY</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>NOT SO MUCH</pattern>
+        <template>
+            No worries! There's lots of jobs out there that don't require much coding.
+            
+            Which of the following would you say describes you the best:
+            
+            <button>
+                <text>Leader</text>
+                <postback>PROJECT MANAGER</postback>
+            </button>
+            <button>
+                <text>Good Communicator</text>
+                <postback>PROJECT MANAGER</postback>
+            </button>
+            <button>
+                <text>Organized</text>
+                <postback>PROJECT MANAGER</postback>
+            </button>
+            <button>
+                <text>Analytical</text>
+                <postback>CYBERSECURITY ANALYST</postback>
+            </button>
+            <button>
+                <text>Problem Solver</text>
+                <postback>CYBERSECURITY ANALYST</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DEFINITELY</pattern>
+        <template>
+            <srai>UIUX DEVELOPER</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>NO WAY</pattern>
+        <template>
+            Not an issue.
+            
+            What are your thoughts on data?
+            <button>
+                <text>I love data</text>
+                <postback>DATA ENGINEER</postback>
+            </button>
+            <button>
+                <text>We're not friends</text>
+                <postback>BACKEND DEVELOPER</postback>
+            </button>
+        </template>
+    </category>
+    
+</aiml>

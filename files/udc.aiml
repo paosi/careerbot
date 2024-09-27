@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>
+        Hmm... I can't help you with that. I'm the Computer Science Careerbot. Type "HELLO" if you'd like to begin.
+    </template>
+  </category>
+</aiml>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+  <pattern>RESULT</pattern>
+  <template>
+    <srai>RECOMMEND JOB</srai>
+  </template>
+</category>
+
+<category>
+  <pattern>RECOMMEND JOB</pattern>
+  <template>
+    <think><set name="job" value="" /></think>
+    <condition name="coding_pref" value="yes">
+      <think><set name="job" value="Software Developer" /></think>
+    </condition>
+    <condition name="data_analysis_pref" value="yes">
+      <think><set name="job" value="Data Scientist" /></think>
+    </condition>
+    <condition name="cybersecurity_pref" value="yes">
+      <think><set name="job" value="Cybersecurity Analyst" /></think>
+    </condition>
+    <condition name="ai_ml_pref" value="yes">
+      <think><set name="job" value="AI/ Machine Learning Engineer" /></think>
+    </condition>
+    <condition name="systems_architecture_pref" value="yes">
+      <think><set name="job" value="Systems Architect" /></think>
+    </condition>
+  
+    <set name="recommended_job"><get name="job"/></set>
+    Based on your answers, the best job for you is: <get name="recommended_job"/>.
+  </template>
+</category>
+
+
+</aiml>
