@@ -7,7 +7,7 @@
             <think>
                 <set name="job">UI/UX DEVELOPER</set>
                 <set name="description">Tech savvy people with a creative side succeed in this role.</set>
-                <set name="link"></set>
+                <set name="link">https://skillcrush.com/tech-jobs/ux-ui-developer/</set>
             </think>
             <srai>RECOMMEND JOB</srai>
         </template>
@@ -19,7 +19,7 @@
             <think>
                 <set name="job">PROJECT MANAGER</set>
                 <set name="description">If you're a good communicator with outstanding leadership and organizational skills, this job's for you!</set>
-                <set name="link"></set>
+                <set name="link">https://www.comptia.org/blog/job-growth-it-project-managers</set>
             </think>
             <srai>RECOMMEND JOB</srai>
         </template>
@@ -31,7 +31,7 @@
             <think>
                 <set name="job">CYBERSECURITY ANALYST</set>
                 <set name="description">Resourceful, analytical problem solvers do well in this role!</set>
-                <set name="link"></set>
+                <set name="link">https://www.forbes.com/advisor/education/it-and-tech/cybersecurity-salary-outlook/</set>
             </think>
             <srai>RECOMMEND JOB</srai>
         </template>
@@ -43,7 +43,7 @@
             <think>
                 <set name="job">DATA ENGINEER</set>
                 <set name="description">Extracting, transforming, and loading massive amounts of data is what this role is all about!</set>
-                <set name="link"></set>
+                <set name="link">https://365datascience.com/career-advice/data-engineer-job-market/</set>
             </think>
             <srai>RECOMMEND JOB</srai>
         </template>
@@ -55,7 +55,7 @@
             <think>
                 <set name="job">BACKEND DEVELOPER</set>
                 <set name="description">A backend developer is responsible for server-side web application logic and integration of the work front-end developers do.</set>
-                <set name="link"></set>
+                <set name="link">https://www.coursera.org/articles/back-end-developer-salary</set>
             </think>
             <srai>RECOMMEND JOB</srai>
         </template>
